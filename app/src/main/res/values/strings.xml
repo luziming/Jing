@@ -1,16 +1,12 @@
 <resources>
     <string name="app_name">鲸</string>
 
-    <string name="about_name">萌萌哒的关于界面</string>
-    <string name="about_me">关于我</string>
-    <string name="my_info">大家好，我是一名电子科技大学通信与信息工程的的大二学生，正在梦想着成为一名优秀的Android工程师，每天都为此努力着，希望大家给我一点鼓励和建议。</string>
     <string name="about_project">关于本项目</string>
-    <string name="project_info">这个项目是为了学习Kotlin而写的，在大一时，写过一个Java版本的，这个项目使用了Picasso加载图片，数据来源于鼠绘漫画网，用Jsoup解析，仅用于学习用途。此项目并未完全完成，有许多地方需要优化，由于学业紧张，只得慢慢优化。</string>
     <string name="about_link">相关链接</string>
     <string name="link_info">www.baidu.com</string>
 
     <string name="link_two">我的Github主页\nhttps://github.com/luziming</string>
 
     <string name="about_thank">使用的库</string>
-    <string name="thank_info">Picasso \nJsoup</string>
+    <string name="thank_info">RxJava \nRetrofit \nDagger2 \nGlide \nBaseRecyclerViewAdapterHelper</string>
 </resources>
