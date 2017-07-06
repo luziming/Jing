@@ -3,10 +3,12 @@ package com.jing.adapter;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.util.Log;
 import android.view.ViewGroup;
 
 import com.jing.activity.base.BaseFragment;
 import com.jing.fragment.HomeFragment;
+import com.melnykov.fab.FloatingActionButton;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,16 +23,15 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
 
     private String[] titles = {"每日一笑","趣味图片","福利视频"};
 
-    private List<BaseFragment> fragments = new ArrayList<BaseFragment>() {
-        {
-            add(new HomeFragment());
-            add(new HomeFragment());
-            add(new HomeFragment());
-        }
-    };
+    private List<BaseFragment> fragments = new ArrayList<BaseFragment>();
 
-    public ViewPagerAdapter(FragmentManager fm) {
+    public ViewPagerAdapter(FragmentManager fm, FloatingActionButton fab) {
         super(fm);
+        for (int i = 0; i < 3; i++) {
+            HomeFragment fragment = new HomeFragment();
+            fragment.setFloatingActionButton(fab);
+            fragments.add(fragment);
+        }
     }
 
     @Override

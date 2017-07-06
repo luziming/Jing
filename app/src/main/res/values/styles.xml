@@ -8,7 +8,6 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!--状态栏颜色-->
         <item name="colorPrimaryDark">@color/blue_600</item>
-
         <item name="android:windowBackground">@android:color/white</item>
         <item name="android:windowIsTranslucent">true</item>
         <item name="windowActionBar">false</item>

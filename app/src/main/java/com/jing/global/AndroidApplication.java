@@ -9,6 +9,7 @@ import com.jing.injector.component.ApplicationComponent;
 import com.jing.injector.component.DaggerApplicationComponent;
 import com.jing.injector.module.ApplicationModule;
 import com.jing.rxbus.RxBus;
+import com.jing.util.ToastUtils;
 import com.squareup.leakcanary.LeakCanary;
 
 /*
@@ -68,6 +69,7 @@ public class AndroidApplication extends Application {
         }
         LeakCanary.install(this);
         RetrofitService.init();
+        ToastUtils.init(context);
     }
 
     public static ApplicationComponent getAppComponent() {

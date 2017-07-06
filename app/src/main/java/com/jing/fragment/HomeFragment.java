@@ -13,6 +13,7 @@ import com.jing.adapter.HomeAdapter;
 import com.jing.injector.component.DaggerHomeFragmentComponent;
 import com.jing.injector.module.HomeFragmentModule;
 import com.jing.util.recycler.RecyclerViewHelper;
+import com.melnykov.fab.FloatingActionButton;
 
 import java.util.List;
 
@@ -45,7 +46,11 @@ public class HomeFragment extends BaseFragment<IBasePresenter> implements ILoadD
     @BindView(R.id.recyclerView)
     RecyclerView recycleView;
 
+    private FloatingActionButton actionButton;
 
+    public void setFloatingActionButton(FloatingActionButton actionButton) {
+        this.actionButton = actionButton;
+    }
     private OnItemDragListener onItemDragListener = new OnItemDragListener() {
         @Override
         public void onItemDragStart(RecyclerView.ViewHolder viewHolder, int pos) {
@@ -78,6 +83,7 @@ public class HomeFragment extends BaseFragment<IBasePresenter> implements ILoadD
     protected void initViews() {
         assert mSwipeRefresh != null;
         mSwipeRefresh.setColorSchemeResources(R.color.blue_600, R.color.blue_600);
+        actionButton.attachToRecyclerView(recycleView);
     }
 
     @Override

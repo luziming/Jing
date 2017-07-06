@@ -79,7 +79,7 @@ public class SplashActivity extends BaseActivity<IBasePresenter> implements ISpl
 
     @Override
     public void countDown(Integer num) {
-        simpleButton.setText("跳过" + num);
+        simpleButton.setText("跳过 " + num);
     }
 
     @Override

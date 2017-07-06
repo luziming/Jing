@@ -9,7 +9,6 @@
     android:orientation="vertical"
     android:paddingTop="@dimen/toolbar_padding_top"
     app:layout_scrollFlags="scroll|enterAlways"
-    app:elevation="20dp"
     app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
     app:theme="@style/toolbar_theme">
 

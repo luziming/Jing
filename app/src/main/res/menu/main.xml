@@ -9,25 +9,25 @@
             android:icon="@drawable/icon_home"
             android:title="主页" />
         <item
-            android:id="@+id/face"
-            android:icon="@drawable/icon_face"
-            android:title="笑脸" />
-        <item
-            android:id="@+id/car"
-            android:icon="@drawable/icon_car"
-            android:title="三月" />
+            android:id="@+id/moments"
+            android:icon="@drawable/ic_camera_black_24dp"
+            android:title="朋友圈" />
     </group>
     <item android:title="其他">
         <menu>
-            <group android:checkableBehavior="single">
+            <group android:checkableBehavior="none">
                 <item
                     android:id="@+id/setting"
                     android:icon="@drawable/icon_setting"
                     android:title="设置" />
                 <item
+                    android:id="@+id/theme"
+                    android:icon="@drawable/ic_color_lens_black_24dp"
+                    android:title="更换主题" />
+                <item
                     android:id="@+id/what"
                     android:icon="@drawable/icon_what"
-                    android:title="关于我" />
+                    android:title="关于作者" />
             </group>
 
         </menu>

@@ -8,8 +8,13 @@
     tools:context=".activity.MainActivity">
 
     <!--主界面-->
-    <include layout="@layout/layout_main" />
+    <!--<include layout="@layout/layout_main" />-->
+    <FrameLayout
+        android:id="@+id/fl_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+    </FrameLayout>
     <!--侧滑菜单-->
     <LinearLayout
         android:id="@+id/ll_left"
