@@ -1,8 +1,8 @@
 package com.jing.injector.module;
 
 import com.jing.activity.base.IBasePresenter;
-import com.jing.fragment.HomeFragment;
-import com.jing.fragment.HomePresenter;
+import com.jing.fragment.home.HomeFragment;
+import com.jing.fragment.home.HomePresenter;
 import com.jing.injector.PerFragment;
 
 import dagger.Module;

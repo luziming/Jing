@@ -1,13 +1,13 @@
 package com.jing.adapter;
 
+import android.support.design.widget.CoordinatorLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.util.Log;
 import android.view.ViewGroup;
 
 import com.jing.activity.base.BaseFragment;
-import com.jing.fragment.HomeFragment;
+import com.jing.fragment.home.HomeFragment;
 import com.melnykov.fab.FloatingActionButton;
 
 import java.util.ArrayList;
@@ -25,11 +25,11 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
 
     private List<BaseFragment> fragments = new ArrayList<BaseFragment>();
 
-    public ViewPagerAdapter(FragmentManager fm, FloatingActionButton fab) {
+    public ViewPagerAdapter(FragmentManager fm, FloatingActionButton fab, CoordinatorLayout coordinatorLayout) {
         super(fm);
         for (int i = 0; i < 3; i++) {
             HomeFragment fragment = new HomeFragment();
-            fragment.setFloatingActionButton(fab);
+            fragment.setView(fab,coordinatorLayout);
             fragments.add(fragment);
         }
     }

@@ -1,6 +1,6 @@
 package com.jing.injector.component;
 
-import com.jing.fragment.HomeFragment;
+import com.jing.fragment.home.HomeFragment;
 import com.jing.injector.PerFragment;
 import com.jing.injector.module.HomeFragmentModule;
 

@@ -115,6 +115,7 @@ public abstract class BaseFragment<T extends IBasePresenter> extends RxFragment 
 
     @Override
     public void onRetry() {
+        showLoading();
         updateViews(false);
     }
 

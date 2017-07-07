@@ -1,12 +1,9 @@
 package com.jing.adapter;
 
-import android.content.Context;
-import android.widget.ImageView;
-
-import com.bumptech.glide.Glide;
-import com.chad.library.adapter.base.BaseItemDraggableAdapter;
+import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
 import com.jing.R;
+import com.jing.entry.Jokes;
 
 import java.util.List;
 
@@ -32,18 +29,17 @@ import java.util.List;
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
          佛祖保佑       永无BUG
 */
-public class HomeAdapter  extends BaseItemDraggableAdapter<Integer, BaseViewHolder> {
+public class HomeAdapter extends BaseQuickAdapter<Jokes.Joke, BaseViewHolder> {
 
-    private Context context;
 
-    public HomeAdapter(List<Integer> data, Context context) {
+    public HomeAdapter(List<Jokes.Joke> data) {
         super(R.layout.item_home, data);
-        this.context = context;
     }
 
     @Override
-    protected void convert(BaseViewHolder helper, Integer item) {
-        Glide.with(context).load("http://cn.bing.com/az/hprichbg/rb/RestArea_ZH-CN13518721881_720x1280.jpg").asBitmap().into((ImageView)helper.getView(R.id.iv_splash));
-        helper.setText(R.id.id_num, item + "");
+    protected void convert(BaseViewHolder helper, Jokes.Joke item) {
+        helper.setText(R.id.tv_content, item.getContent())
+                .setText(R.id.tv_time, item.getUpdatetime())
+                .addOnClickListener(R.id.iv_del);
     }
 }

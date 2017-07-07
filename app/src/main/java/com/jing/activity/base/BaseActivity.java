@@ -114,6 +114,7 @@ public abstract class BaseActivity<T extends IBasePresenter> extends RxAppCompat
 
     @Override
     public void onRetry() {
+        showLoading();
         updateViews(false);
     }
 

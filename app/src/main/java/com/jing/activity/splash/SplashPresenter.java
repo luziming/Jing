@@ -41,7 +41,10 @@ public class SplashPresenter implements IBasePresenter {
                 .compose(mView.bindToLife())
                 //订阅分别对应onNext,onError,onComplete,结合了Lambda
                 .subscribe(mView::countDown
-                        , throwable -> Log.e("SplashPresenter", "call:" + throwable.toString()),
+                        , throwable -> {
+                            Log.e("SplashPresenter", "call:" + throwable.toString());
+                            mView.complete();
+                        },
                         mView::complete);
     }
 

@@ -1,5 +1,6 @@
 package com.jing.activity;
 
+import android.Manifest;
 import android.content.res.ColorStateList;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
@@ -11,8 +12,11 @@ import android.widget.LinearLayout;
 import com.jing.R;
 import com.jing.activity.base.BaseActivity;
 import com.jing.activity.base.BaseFragment;
+import com.jing.executor.NaviMenuExecutor;
+import com.jing.executor.WeatherExecutor;
 import com.jing.fragment.main.MainFragment;
 import com.jing.util.ToastUtils;
+import com.tbruyelle.rxpermissions.RxPermissions;
 
 import butterknife.BindView;
 
@@ -25,6 +29,7 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
     NavigationView navigation_view;
     @BindView(R.id.ll_left)
     LinearLayout ll_left;
+
 
     @Override
     protected int attachLayoutRes() {
@@ -39,6 +44,7 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
     @Override
     protected void initViews() {
         initDrawerLayout();
+        updataWeather();
     }
 
     @Override
@@ -65,6 +71,16 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
         navigation_view.setNavigationItemSelectedListener(this);
     }
 
+    private void updataWeather() {
+        RxPermissions.getInstance(this).request(Manifest.permission.ACCESS_FINE_LOCATION,
+                Manifest.permission.ACCESS_COARSE_LOCATION)
+                .subscribe(granted -> {
+                    if (granted)
+                        new WeatherExecutor(navigation_view).execute();
+                    else
+                        ToastUtils.showToast(getString(R.string.no_permission, "位置信息", "更新天气"));
+                });
+    }
     private void initFragment(BaseFragment fragment) {
         getSupportFragmentManager()
                 .beginTransaction().
@@ -77,24 +93,7 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
         if (item.isChecked()) {
             return true;
         }
-        switch (item.getItemId()) {
-            case R.id.home:
-//                initFragment(new HomeFragment());
-                break;
-            case R.id.moments:
-                ToastUtils.showToast("Moments");
-                break;
-            case R.id.setting:
-                ToastUtils.showToast("Settings");
-                break;
-            case R.id.theme:
-                ToastUtils.showToast("Themes");
-                break;
-            case R.id.what:
-                AboutMeActivity.launch(MainActivity.this);
-                break;
-        }
-        return true;
+        return NaviMenuExecutor.onNavigationItemSelected(item,this);
     }
 
     @Override

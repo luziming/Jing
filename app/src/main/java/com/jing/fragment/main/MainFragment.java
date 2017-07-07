@@ -1,6 +1,7 @@
 package com.jing.fragment.main;
 
 import android.support.design.widget.AppBarLayout;
+import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.widget.Toolbar;
@@ -30,6 +31,8 @@ public class MainFragment extends BaseFragment {
     ViewPager mViewpager;
     @BindView(R.id.fab)
     FloatingActionButton fab;
+    @BindView(R.id.coordinator)
+    CoordinatorLayout coordinatorLayout;
 
     @Override
     protected int attachLayoutRes() {
@@ -38,13 +41,14 @@ public class MainFragment extends BaseFragment {
 
     @Override
     protected void initInjector() {
+
     }
 
     @Override
     protected void initViews() {
-        initToolBar(toolbar, true, "鲸");
+        initToolBar(toolbar, true, getString(R.string.app_name));
         setHasOptionsMenu(true);
-        mViewpager.setAdapter(new ViewPagerAdapter(mContext.getSupportFragmentManager(),fab));
+        mViewpager.setAdapter(new ViewPagerAdapter(mContext.getSupportFragmentManager(),fab,coordinatorLayout));
         tabLayout.setupWithViewPager(mViewpager);
         tabLayout.setTabMode(TabLayout.MODE_FIXED);
     }

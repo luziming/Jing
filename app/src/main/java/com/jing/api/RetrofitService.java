@@ -1,5 +1,6 @@
 package com.jing.api;
 
+import com.jing.entry.Jokes;
 import com.jing.entry.Splash;
 
 import java.util.concurrent.TimeUnit;
@@ -24,12 +25,12 @@ public class RetrofitService {
      * Base地址
      */
     private static final String BASE_URL_SPLASH = "http://cn.bing.com/";
-    private static final String BASE_URL2 = "http://api.music.coolrui.net/v2/";
+    private static final String BASE_URL_JUHE = "http://api.avatardata.cn/";
     /**
      * Api接口
      */
     private static ISplashApi mSplashApi;
-
+    private static IJuheApi mJuheApi;
 
     private RetrofitService() {
         throw new AssertionError();
@@ -43,6 +44,7 @@ public class RetrofitService {
                 .retryOnConnectionFailure(true)
                 .connectTimeout(10, TimeUnit.SECONDS)
                 .build();
+
         Retrofit retrofit = new Retrofit.Builder()
                 .client(okHttpClient)
                 .addConverterFactory(GsonConverterFactory.create())
@@ -50,6 +52,15 @@ public class RetrofitService {
                 .baseUrl(BASE_URL_SPLASH)
                 .build();
         mSplashApi = retrofit.create(ISplashApi.class);
+
+        Retrofit juheRetrofit = new Retrofit.Builder()
+                .client(okHttpClient)
+                .addConverterFactory(GsonConverterFactory.create())
+                .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
+                .baseUrl(BASE_URL_JUHE)
+                .build();
+        mJuheApi = juheRetrofit.create(IJuheApi.class);
+
     }
 
 
@@ -62,6 +73,21 @@ public class RetrofitService {
      */
     public static Observable<Splash> getNewsList() {
         return mSplashApi.getSplash("js","0","1")
+                .subscribeOn(Schedulers.io())
+                .unsubscribeOn(Schedulers.io())
+                .subscribeOn(AndroidSchedulers.mainThread())
+                .observeOn(AndroidSchedulers.mainThread());
+    }
+
+    /**
+     * 获取笑话
+     * @param page 页数,默认1
+     * @return
+     */
+    public static Observable<Jokes> getJokes(int page) {
+        //申请的key
+        String juheKey = "c985e8317b9446fbbc9b3515b4bbd177";
+        return mJuheApi.getJokes(juheKey,page)
                 .subscribeOn(Schedulers.io())
                 .unsubscribeOn(Schedulers.io())
                 .subscribeOn(AndroidSchedulers.mainThread())

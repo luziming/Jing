@@ -1,12 +1,13 @@
 <resources>
-    <string name="app_name">鲸</string>
-
+    <string name="app_name">小鲸鱼</string>
+    <string name="weather_temp">%s°</string>
+    <string name="weather_wind">%1$s风%2$s级&#160;&#160;湿度%3$s%%</string>
+    <string name="no_permission">没有%1$s权限，无法%2$s！</string>
+    <string name="copyright">Copyright © 2015&#045;%d JAKE</string>
     <string name="about_project">关于本项目</string>
     <string name="about_link">相关链接</string>
     <string name="link_info">www.baidu.com</string>
-
     <string name="link_two">我的Github主页\nhttps://github.com/luziming</string>
-
     <string name="about_thank">使用的库</string>
     <string name="thank_info">RxJava \nRetrofit \nDagger2 \nGlide \nBaseRecyclerViewAdapterHelper</string>
 </resources>

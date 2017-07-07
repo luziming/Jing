@@ -2,6 +2,7 @@ package com.jing.activity.splash;
 
 import android.content.Intent;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.jakewharton.rxbinding.view.RxView;
@@ -12,6 +13,8 @@ import com.jing.activity.base.IBasePresenter;
 import com.jing.injector.component.DaggerSplashActivityComponent;
 import com.jing.injector.module.SplashActivityModule;
 import com.jing.view.SimpleButton;
+
+import java.util.Calendar;
 
 import butterknife.BindView;
 
@@ -43,6 +46,8 @@ public class SplashActivity extends BaseActivity<IBasePresenter> implements ISpl
     ImageView iv_splash;
     @BindView(R.id.sb_skip)
     SimpleButton simpleButton;
+    @BindView(R.id.tv_copyright)
+    TextView tv_copyright;
 
     private boolean mIsSkip = false;
 
@@ -62,9 +67,10 @@ public class SplashActivity extends BaseActivity<IBasePresenter> implements ISpl
 
     @Override
     protected void initViews() {
+        int year = Calendar.getInstance().get(Calendar.YEAR);
+        tv_copyright.setText(getString(R.string.copyright, year));
         RxView.clicks(simpleButton).compose(this.bindToLife())
                 .subscribe(aVoid -> doSkip());
-
     }
 
     @Override

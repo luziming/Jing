@@ -18,6 +18,19 @@
 
     </android.support.v4.widget.SwipeRefreshLayout>
 
+    <TextView
+        android:id="@+id/tv_toast"
+        android:visibility="gone"
+        android:gravity="center"
+        android:text="10条新内容"
+        android:padding="6dp"
+        android:textSize="@dimen/sp_16"
+        android:elevation="10dp"
+        android:translationZ="@dimen/dp_10"
+        android:background="@color/white"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <include layout="@layout/layout_common_empty" />
 
