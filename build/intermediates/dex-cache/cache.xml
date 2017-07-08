@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/luziming/AndroidStudioProjects/Jing/flotatingActionButton/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="26d74144456402bbe420984ab3ffccb526e7de9a">
+        <dex dex="/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/pre-dexed/debug/classes_42ab5e0c635d9adb3392295bb1c763701e680dc6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luziming/AndroidStudioProjects/Jing/app/libs/AMap_Location_1.3.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="71e7604372d8a66689ff8df047e9a748e19a5169">
+        <dex dex="/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/pre-dexed/debug/AMap_Location_1.3.3_8a2a67cee2bf5002628067ed2b59fc9425e03415.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luziming/.android/build-cache/914bee6dd2314483071020cdc3b3ffe197f02b81/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d0db114dc90b3e192ba48d22421a9c47cfc01f00">
+        <dex dex="/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/pre-dexed/debug/classes_639e963fe226968009d19a5a626af8235ab3a189.jar" />
+    </item>
+
+</items>
