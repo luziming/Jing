@@ -72,7 +72,6 @@ dependencies {
     // shine button
     compile 'com.sackcentury:shinebutton:0.1.6'
     compile 'com.github.ybq:Android-SpinKit:1.1.0'
-    compile 'com.lzp.floatingactionbutton:floatingactionbuttonplus:1.0.0'
     compile project(':flotatingActionButton')
     compile 'com.nispok:snackbar:2.11.+'
 }
