@@ -13,7 +13,7 @@ import com.jing.activity.base.BaseFragment;
 import com.jing.activity.base.IBasePresenter;
 import com.jing.activity.base.ILoadDataView;
 import com.jing.adapter.HomeAdapter;
-import com.jing.anim.recyclerview.animators.ScaleInRightAnimator;
+import com.jing.anim.recyclerview.animators.FlipInBottomXAnimator;
 import com.jing.entry.Jokes;
 import com.jing.injector.component.DaggerHomeFragmentComponent;
 import com.jing.injector.module.HomeFragmentModule;
@@ -105,7 +105,7 @@ public class HomeFragment extends BaseFragment<IBasePresenter> implements ILoadD
         adapter.setLoadMoreView(new CustomLoadMoreView());
         adapter.setOnItemChildClickListener(this);
         RecyclerViewHelper.initRecyclerViewV(mContext, recycleView, false, adapter);
-        recycleView.setItemAnimator(new ScaleInRightAnimator());
+        recycleView.setItemAnimator(new FlipInBottomXAnimator());
     }
 
     @Override
@@ -151,7 +151,6 @@ public class HomeFragment extends BaseFragment<IBasePresenter> implements ILoadD
                     public void onShow(Snackbar snackbar) {
                         actionButton.showWithSnackHeight(snackbar.getHeight());
                     }
-
                     @Override
                     public void onDismiss(Snackbar snackbar) {
                         actionButton.showWithSnackHeight(0);
