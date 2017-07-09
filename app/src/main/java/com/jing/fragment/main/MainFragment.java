@@ -48,7 +48,7 @@ public class MainFragment extends BaseFragment {
     protected void initViews() {
         initToolBar(toolbar, true, getString(R.string.app_name));
         setHasOptionsMenu(true);
-        mViewpager.setAdapter(new ViewPagerAdapter(mContext.getSupportFragmentManager(),fab,coordinatorLayout));
+        mViewpager.setAdapter(new ViewPagerAdapter(mContext.getSupportFragmentManager(),fab));
         tabLayout.setupWithViewPager(mViewpager);
         tabLayout.setTabMode(TabLayout.MODE_FIXED);
     }

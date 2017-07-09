@@ -1,7 +1,12 @@
 package com.jing.fragment.picture;
 
-import com.jing.R;
-import com.jing.activity.base.BaseFragment;
+import com.jing.adapter.PictureAdapter;
+import com.jing.anim.recyclerview.animators.ScaleInRightAnimator;
+import com.jing.entry.JokeImgs;
+import com.jing.fragment.JokeBaseFragment;
+import com.jing.injector.component.DaggerPictureFragmentConponent;
+import com.jing.injector.module.PictureFragmentModule;
+import com.jing.util.recycler.RecyclerViewHelper;
 
 /**
  * 写代码救不了中国人
@@ -9,26 +14,25 @@ import com.jing.activity.base.BaseFragment;
  * Created by luziming on 2017/7/7.
  */
 
-public class PictureFragment extends BaseFragment {
-
+public class PictureFragment extends JokeBaseFragment<JokeImgs.Image> {
 
     @Override
-    protected int attachLayoutRes() {
-        return R.layout.fragment_home;
+    protected void initAdapter() {
+        mAdapter = new PictureAdapter(mJokeList,mContext);
+    }
+
+    @Override
+    protected void initRecyclerViewHelper() {
+        RecyclerViewHelper.initRecyclerViewSV(mContext,recycleView,false,mAdapter,1);
+        recycleView.setItemAnimator(new ScaleInRightAnimator());
     }
 
     @Override
     protected void initInjector() {
-
-    }
-
-    @Override
-    protected void initViews() {
-
-    }
-
-    @Override
-    protected void updateViews(boolean isRefresh) {
-
+        DaggerPictureFragmentConponent.builder()
+                .pictureFragmentModule(new PictureFragmentModule(this,mJokeList))
+                .applicationComponent(getAppComponent())
+                .build()
+                .inject(this);
     }
 }

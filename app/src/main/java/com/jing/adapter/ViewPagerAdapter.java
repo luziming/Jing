@@ -1,6 +1,5 @@
 package com.jing.adapter;
 
-import android.support.design.widget.CoordinatorLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -8,6 +7,7 @@ import android.view.ViewGroup;
 
 import com.jing.activity.base.BaseFragment;
 import com.jing.fragment.home.HomeFragment;
+import com.jing.fragment.picture.PictureFragment;
 import com.melnykov.fab.FloatingActionButton;
 
 import java.util.ArrayList;
@@ -23,15 +23,24 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
 
     private String[] titles = {"每日一笑","趣味图片","福利视频"};
 
-    private List<BaseFragment> fragments = new ArrayList<BaseFragment>();
+    private List<BaseFragment> fragments = new ArrayList<>();
 
-    public ViewPagerAdapter(FragmentManager fm, FloatingActionButton fab, CoordinatorLayout coordinatorLayout) {
+    public ViewPagerAdapter(FragmentManager fm, FloatingActionButton fab) {
         super(fm);
-        for (int i = 0; i < 3; i++) {
-            HomeFragment fragment = new HomeFragment();
-            fragment.setView(fab,coordinatorLayout);
-            fragments.add(fragment);
-        }
+//        for (int i = 0; i < 3; i++) {
+//            HomeFragment fragment = new HomeFragment();
+//            fragment.setView(fab);
+//            fragments.add(fragment);
+//        }
+        HomeFragment fragment = new HomeFragment();
+        fragment.setView(fab);
+        PictureFragment pictureFragment = new PictureFragment();
+        pictureFragment.setView(fab);
+        fragments.add(fragment);
+        fragments.add(pictureFragment);
+        fragment = new HomeFragment();
+        fragment.setView(fab);
+        fragments.add(fragment);
     }
 
     @Override

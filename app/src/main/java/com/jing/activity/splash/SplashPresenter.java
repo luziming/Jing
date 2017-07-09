@@ -22,7 +22,6 @@ public class SplashPresenter implements IBasePresenter {
 
     private final ISplashView mView;
 
-
     public SplashPresenter(ISplashView view) {
         mView = view;
     }

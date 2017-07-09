@@ -1,5 +1,6 @@
 package com.jing.api;
 
+import com.jing.entry.JokeImgs;
 import com.jing.entry.Jokes;
 import com.jing.entry.Splash;
 
@@ -88,6 +89,22 @@ public class RetrofitService {
         //申请的key
         String juheKey = "c985e8317b9446fbbc9b3515b4bbd177";
         return mJuheApi.getJokes(juheKey,page)
+                .subscribeOn(Schedulers.io())
+                .unsubscribeOn(Schedulers.io())
+                .subscribeOn(AndroidSchedulers.mainThread())
+                .observeOn(AndroidSchedulers.mainThread());
+    }
+
+    /**
+     * 获取笑话
+     * @param page 页数,默认1
+     * @return
+     */
+    public static Observable<JokeImgs> getJokeImgs(int page) {
+        String juheKey = "c985e8317b9446fbbc9b3515b4bbd177";
+        //单页加载数量,默认20,最大50
+        int rows = 15;
+        return mJuheApi.getJokeImgs(juheKey,rows,page)
                 .subscribeOn(Schedulers.io())
                 .unsubscribeOn(Schedulers.io())
                 .subscribeOn(AndroidSchedulers.mainThread())

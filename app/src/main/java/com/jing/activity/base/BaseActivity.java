@@ -238,6 +238,5 @@ public abstract class BaseActivity<T extends IBasePresenter> extends RxAppCompat
         }
         return super.onOptionsItemSelected(item);
     }
-
     protected void elseView(){}
 }
