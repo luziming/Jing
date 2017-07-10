@@ -1,6 +1,5 @@
 package com.jing.fragment.picture;
 
-import com.jing.adapter.PictureAdapter;
 import com.jing.anim.recyclerview.animators.ScaleInRightAnimator;
 import com.jing.entry.JokeImgs;
 import com.jing.fragment.JokeBaseFragment;
@@ -16,10 +15,6 @@ import com.jing.util.recycler.RecyclerViewHelper;
 
 public class PictureFragment extends JokeBaseFragment<JokeImgs.Image> {
 
-    @Override
-    protected void initAdapter() {
-        mAdapter = new PictureAdapter(mJokeList,mContext);
-    }
 
     @Override
     protected void initRecyclerViewHelper() {
@@ -35,4 +30,5 @@ public class PictureFragment extends JokeBaseFragment<JokeImgs.Image> {
                 .build()
                 .inject(this);
     }
+    // TODO: 2017/7/9 图片加载模式,动图点开再播放,以及图片缓存问题
 }
