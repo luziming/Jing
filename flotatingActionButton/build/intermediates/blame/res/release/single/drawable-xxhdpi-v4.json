@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/flotatingActionButton/build/intermediates/res/merged/release/drawable-xxhdpi-v4/fab_shadow.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/flotatingActionButton/src/main/res/drawable-xxhdpi/fab_shadow.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/flotatingActionButton/build/intermediates/res/merged/release/drawable-xxhdpi-v4/fab_shadow_mini.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/flotatingActionButton/src/main/res/drawable-xxhdpi/fab_shadow_mini.png"
+    }
+]

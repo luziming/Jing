@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/interpolator/sb__accelerate_cubic.xml",
+        "source": "/Users/luziming/.android/build-cache/914bee6dd2314483071020cdc3b3ffe197f02b81/output/res/interpolator/sb__accelerate_cubic.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/interpolator/sb__decelerate_cubic.xml",
+        "source": "/Users/luziming/.android/build-cache/914bee6dd2314483071020cdc3b3ffe197f02b81/output/res/interpolator/sb__decelerate_cubic.xml"
+    }
+]

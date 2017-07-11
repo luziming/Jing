@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_weather_sandstorm.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/drawable-xxhdpi/ic_weather_sandstorm.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_setting.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-xxhdpi/icon_setting.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_weather_thunderstorm.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/drawable-xxhdpi/ic_weather_thunderstorm.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_face.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-xxhdpi/icon_face.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_weather_overcast.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/drawable-xxhdpi/ic_weather_overcast.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_what.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-xxhdpi/icon_what.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_color_lens_black_24dp.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_color_lens_black_24dp.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_heart.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-xxhdpi/icon_heart.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_weather_snow.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/drawable-xxhdpi/ic_weather_snow.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_weather_typhoon.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/drawable-xxhdpi/ic_weather_typhoon.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_clear.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_clear.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_home.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-xxhdpi/icon_home.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_menu.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-xxhdpi/icon_menu.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_weather_cloudy_night.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/drawable-xxhdpi/ic_weather_cloudy_night.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_car.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-xxhdpi/icon_car.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_camera_black_24dp.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_camera_black_24dp.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_weather_rain.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/drawable-xxhdpi/ic_weather_rain.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_weather_sleet.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/drawable-xxhdpi/ic_weather_sleet.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_weather_cloudy.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/drawable-xxhdpi/ic_weather_cloudy.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_weather_foggy.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/drawable-xxhdpi/ic_weather_foggy.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_weather_sunny.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/drawable-xxhdpi/ic_weather_sunny.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_weather_sunny_night.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/drawable-xxhdpi/ic_weather_sunny_night.png"
+    }
+]

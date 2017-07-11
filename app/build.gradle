@@ -60,7 +60,7 @@ dependencies {
     //动态获取权限
     compile 'com.tbruyelle.rxpermissions:rxpermissions:0.7.0@aar'
     // recyclerView辅助
-    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.18'
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.22'
     //检测内存泄漏
     debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5.1'
     releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.1'

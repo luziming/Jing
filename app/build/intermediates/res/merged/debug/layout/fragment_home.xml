@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/fragment_bg" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <TextView
+        android:id="@+id/tv_toast"
+        android:visibility="gone"
+        android:gravity="center"
+        android:text="10条新内容"
+        android:padding="6dp"
+        android:textSize="@dimen/sp_16"
+        android:elevation="10dp"
+        android:translationZ="@dimen/dp_10"
+        android:background="@color/white"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <include layout="@layout/layout_common_empty" />
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/fab"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom|end"-->
+        <!--android:layout_margin="16dp"-->
+        <!--android:clickable="true"-->
+        <!--android:src="@drawable/icon_heart"-->
+        <!--app:backgroundTint="@color/jing"-->
+        <!--app:elevation="6dp"-->
+        <!--app:layout_anchor="@id/recyclerView"-->
+        <!--app:layout_anchorGravity="bottom|end"-->
+        <!--app:layout_behavior="com.jing.anim.ScrollBehavior" />-->
+
+</FrameLayout>

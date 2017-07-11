@@ -1,0 +1,223 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:2:1-44:12
+	package
+		ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:3:5-23
+		INJECTED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:7:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] /Users/luziming/.android/build-cache/8da73486c1ca45c00dc248ebb119530cfea310e4/output/AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:8:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] /Users/luziming/.android/build-cache/8da73486c1ca45c00dc248ebb119530cfea310e4/output/AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:8:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:10:22-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:14:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:15:5-75
+	android:name
+		ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:15:22-72
+application
+ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:17:5-42:19
+MERGED from [com.android.support:design:25.3.1] /Users/luziming/.android/build-cache/aebc29d77938e600fb82264723e9e385c3b99dca/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] /Users/luziming/.android/build-cache/4e62e9666d609c28721d3599bd90ab2f7eb2532f/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/luziming/.android/build-cache/3c70506b581bbd1205ce2fdb4f3a00ef00763232/output/AndroidManifest.xml:26:5-20
+MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] /Users/luziming/.android/build-cache/9e596dfbdcea163f08a4591af99c50b38cbdf852/output/AndroidManifest.xml:10:5-15:19
+MERGED from [com.gyf.barlibrary:barlibrary:2.2.4] /Users/luziming/.android/build-cache/a69bc609e33c1311c166b9cd02baa6a164467eaf/output/AndroidManifest.xml:11:5-14:38
+MERGED from [com.sackcentury:shinebutton:0.1.6] /Users/luziming/.android/build-cache/5a7b84d75fc3d42d75e830a5b7c40611695f0b86/output/AndroidManifest.xml:11:5-15:19
+MERGED from [com.daasuu:EasingInterpolator:1.0.0] /Users/luziming/.android/build-cache/91082ceca7f824e112fe2a7189220a3fe6493834/output/AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/luziming/.android/build-cache/ab0d85488ffdd6de507d51a83fd0e987ca52e372/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/luziming/.android/build-cache/743ace8c59e2d442adea63235cb7d4b78cb8bbc4/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/luziming/.android/build-cache/366a21d06c9febda78e0637c4f20e5f8223d75c7/output/AndroidManifest.xml:26:5-20
+MERGED from [Jing:flotatingActionButton:unspecified] /Users/luziming/AndroidStudioProjects/Jing/flotatingActionButton/build/intermediates/bundles/default/AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/luziming/.android/build-cache/e44b9813dc26784e50ae472b3de49c279c7f21e3/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/luziming/.android/build-cache/7d6920d14e0317ab65aaa1a49adec4f237396342/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/luziming/.android/build-cache/af311d29269dfb925d250b4a67ca97a4382c006f/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/luziming/.android/build-cache/e3aa1bb467cf112caa46bae40869b098f96ce606/output/AndroidManifest.xml:29:5-20
+MERGED from [com.nispok:snackbar:2.11.0] /Users/luziming/.android/build-cache/914bee6dd2314483071020cdc3b3ffe197f02b81/output/AndroidManifest.xml:10:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/luziming/.android/build-cache/b34f1c0db63228c571c53cae56b089b8ebdfc945/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/luziming/.android/build-cache/70a9927375665c46d73cc6533b8f2ef3ffd6f3d6/output/AndroidManifest.xml:29:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] /Users/luziming/.android/build-cache/8da73486c1ca45c00dc248ebb119530cfea310e4/output/AndroidManifest.xml:26:5-55:19
+	android:label
+		ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:21:9-41
+	android:supportsRtl
+		ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:22:9-35
+	android:allowBackup
+		ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:19:9-35
+	android:icon
+		ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:20:9-43
+	android:theme
+		ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:23:9-40
+	android:name
+		ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:18:9-50
+meta-data#com.amap.api.v2.apikey
+ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:25:9-27:64
+	android:value
+		ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:27:13-61
+	android:name
+		ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:26:13-50
+activity#com.jing.activity.splash.SplashActivity
+ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:29:9-38:20
+	android:screenOrientation
+		ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:31:13-49
+	android:theme
+		ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:32:13-47
+	android:name
+		ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:30:13-59
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:33:13-37:29
+action#android.intent.action.MAIN
+ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:36:27-74
+activity#com.jing.activity.MainActivity
+ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:40:9-59
+	android:name
+		ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:40:19-56
+activity#com.jing.activity.AboutMeActivity
+ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:41:9-62
+	android:name
+		ADDED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml:41:19-59
+uses-sdk
+INJECTED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.1] /Users/luziming/.android/build-cache/aebc29d77938e600fb82264723e9e385c3b99dca/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.1] /Users/luziming/.android/build-cache/4e62e9666d609c28721d3599bd90ab2f7eb2532f/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/luziming/.android/build-cache/3c70506b581bbd1205ce2fdb4f3a00ef00763232/output/AndroidManifest.xml:20:5-43
+MERGED from [com.jakewharton:butterknife:8.4.0] /Users/luziming/.android/build-cache/23e08f0408dec0ae75a05630f8fd647fa2843ae9/output/AndroidManifest.xml:5:5-43
+MERGED from [com.trello:rxlifecycle-components:1.0] /Users/luziming/.android/build-cache/feaeffca5f7ba8585320e37d48b2761031d9abc5/output/AndroidManifest.xml:17:5-44
+MERGED from [com.trello:rxlifecycle-android:1.0] /Users/luziming/.android/build-cache/060ac153b8f9aacdb031684a20b3a576582d7846/output/AndroidManifest.xml:17:5-44
+MERGED from [com.jakewharton.rxbinding:rxbinding:0.4.0] /Users/luziming/.android/build-cache/3c38ac0fbcba1b7aa380ad3fe2e307ac3a383fdc/output/AndroidManifest.xml:6:5-44
+MERGED from [io.reactivex:rxandroid:1.2.1] /Users/luziming/.android/build-cache/8b2b3dec5fcca882dd0269fa06a38b3003b3d7e1/output/AndroidManifest.xml:19:5-43
+MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] /Users/luziming/.android/build-cache/9e596dfbdcea163f08a4591af99c50b38cbdf852/output/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.22] /Users/luziming/.android/build-cache/c35b0fdf0bc5b10891d0f19d4970c9768cbc7647/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.gyf.barlibrary:barlibrary:2.2.4] /Users/luziming/.android/build-cache/a69bc609e33c1311c166b9cd02baa6a164467eaf/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.sackcentury:shinebutton:0.1.6] /Users/luziming/.android/build-cache/5a7b84d75fc3d42d75e830a5b7c40611695f0b86/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.daasuu:EasingInterpolator:1.0.0] /Users/luziming/.android/build-cache/91082ceca7f824e112fe2a7189220a3fe6493834/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/luziming/.android/build-cache/ab0d85488ffdd6de507d51a83fd0e987ca52e372/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/luziming/.android/build-cache/743ace8c59e2d442adea63235cb7d4b78cb8bbc4/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/luziming/.android/build-cache/366a21d06c9febda78e0637c4f20e5f8223d75c7/output/AndroidManifest.xml:20:5-43
+MERGED from [com.github.ybq:Android-SpinKit:1.1.0] /Users/luziming/.android/build-cache/7eeb5f48f7fd56910a885b1f85e2c01c42855fc2/output/AndroidManifest.xml:6:5-8:41
+MERGED from [Jing:flotatingActionButton:unspecified] /Users/luziming/AndroidStudioProjects/Jing/flotatingActionButton/build/intermediates/bundles/default/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v4:25.3.1] /Users/luziming/.android/build-cache/e44b9813dc26784e50ae472b3de49c279c7f21e3/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/luziming/.android/build-cache/7d6920d14e0317ab65aaa1a49adec4f237396342/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/luziming/.android/build-cache/af311d29269dfb925d250b4a67ca97a4382c006f/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/luziming/.android/build-cache/e3aa1bb467cf112caa46bae40869b098f96ce606/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.nispok:snackbar:2.11.0] /Users/luziming/.android/build-cache/914bee6dd2314483071020cdc3b3ffe197f02b81/output/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/luziming/.android/build-cache/bba017fff8736399eca832396369cd42669f3509/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/luziming/.android/build-cache/b34f1c0db63228c571c53cae56b089b8ebdfc945/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /Users/luziming/.android/build-cache/70a9927375665c46d73cc6533b8f2ef3ffd6f3d6/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] /Users/luziming/.android/build-cache/8da73486c1ca45c00dc248ebb119530cfea310e4/output/AndroidManifest.xml:20:5-44
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] /Users/luziming/.android/build-cache/aebc29d77938e600fb82264723e9e385c3b99dca/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/luziming/AndroidStudioProjects/Jing/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] /Users/luziming/.android/build-cache/aebc29d77938e600fb82264723e9e385c3b99dca/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] /Users/luziming/.android/build-cache/4e62e9666d609c28721d3599bd90ab2f7eb2532f/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/luziming/.android/build-cache/3c70506b581bbd1205ce2fdb4f3a00ef00763232/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/luziming/.android/build-cache/ab0d85488ffdd6de507d51a83fd0e987ca52e372/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/luziming/.android/build-cache/743ace8c59e2d442adea63235cb7d4b78cb8bbc4/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/luziming/.android/build-cache/366a21d06c9febda78e0637c4f20e5f8223d75c7/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/luziming/.android/build-cache/e44b9813dc26784e50ae472b3de49c279c7f21e3/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/luziming/.android/build-cache/7d6920d14e0317ab65aaa1a49adec4f237396342/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/luziming/.android/build-cache/af311d29269dfb925d250b4a67ca97a4382c006f/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/luziming/.android/build-cache/e3aa1bb467cf112caa46bae40869b098f96ce606/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/luziming/.android/build-cache/bba017fff8736399eca832396369cd42669f3509/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/luziming/.android/build-cache/b34f1c0db63228c571c53cae56b089b8ebdfc945/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/luziming/.android/build-cache/70a9927375665c46d73cc6533b8f2ef3ffd6f3d6/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] /Users/luziming/.android/build-cache/aebc29d77938e600fb82264723e9e385c3b99dca/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] /Users/luziming/.android/build-cache/aebc29d77938e600fb82264723e9e385c3b99dca/output/AndroidManifest.xml:26:9-47
+activity#com.tbruyelle.rxpermissions.ShadowActivity
+ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] /Users/luziming/.android/build-cache/9e596dfbdcea163f08a4591af99c50b38cbdf852/output/AndroidManifest.xml:11:9-14:75
+	android:launchMode
+		ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] /Users/luziming/.android/build-cache/9e596dfbdcea163f08a4591af99c50b38cbdf852/output/AndroidManifest.xml:13:13-43
+	android:theme
+		ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] /Users/luziming/.android/build-cache/9e596dfbdcea163f08a4591af99c50b38cbdf852/output/AndroidManifest.xml:14:13-72
+	android:name
+		ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] /Users/luziming/.android/build-cache/9e596dfbdcea163f08a4591af99c50b38cbdf852/output/AndroidManifest.xml:12:13-70
+service#com.squareup.leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] /Users/luziming/.android/build-cache/8da73486c1ca45c00dc248ebb119530cfea310e4/output/AndroidManifest.xml:27:9-30:45
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] /Users/luziming/.android/build-cache/8da73486c1ca45c00dc248ebb119530cfea310e4/output/AndroidManifest.xml:29:13-36
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] /Users/luziming/.android/build-cache/8da73486c1ca45c00dc248ebb119530cfea310e4/output/AndroidManifest.xml:30:13-42
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] /Users/luziming/.android/build-cache/8da73486c1ca45c00dc248ebb119530cfea310e4/output/AndroidManifest.xml:28:13-80
+service#com.squareup.leakcanary.DisplayLeakService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] /Users/luziming/.android/build-cache/8da73486c1ca45c00dc248ebb119530cfea310e4/output/AndroidManifest.xml:31:9-33:39
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] /Users/luziming/.android/build-cache/8da73486c1ca45c00dc248ebb119530cfea310e4/output/AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] /Users/luziming/.android/build-cache/8da73486c1ca45c00dc248ebb119530cfea310e4/output/AndroidManifest.xml:32:13-70
+activity#com.squareup.leakcanary.internal.DisplayLeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] /Users/luziming/.android/build-cache/8da73486c1ca45c00dc248ebb119530cfea310e4/output/AndroidManifest.xml:35:9-47:20
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] /Users/luziming/.android/build-cache/8da73486c1ca45c00dc248ebb119530cfea310e4/output/AndroidManifest.xml:37:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] /Users/luziming/.android/build-cache/8da73486c1ca45c00dc248ebb119530cfea310e4/output/AndroidManifest.xml:39:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] /Users/luziming/.android/build-cache/8da73486c1ca45c00dc248ebb119530cfea310e4/output/AndroidManifest.xml:38:13-54
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] /Users/luziming/.android/build-cache/8da73486c1ca45c00dc248ebb119530cfea310e4/output/AndroidManifest.xml:41:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] /Users/luziming/.android/build-cache/8da73486c1ca45c00dc248ebb119530cfea310e4/output/AndroidManifest.xml:40:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] /Users/luziming/.android/build-cache/8da73486c1ca45c00dc248ebb119530cfea310e4/output/AndroidManifest.xml:36:13-80
+activity#com.squareup.leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] /Users/luziming/.android/build-cache/8da73486c1ca45c00dc248ebb119530cfea310e4/output/AndroidManifest.xml:48:9-54:68
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] /Users/luziming/.android/build-cache/8da73486c1ca45c00dc248ebb119530cfea310e4/output/AndroidManifest.xml:50:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] /Users/luziming/.android/build-cache/8da73486c1ca45c00dc248ebb119530cfea310e4/output/AndroidManifest.xml:52:13-82
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] /Users/luziming/.android/build-cache/8da73486c1ca45c00dc248ebb119530cfea310e4/output/AndroidManifest.xml:51:13-54
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] /Users/luziming/.android/build-cache/8da73486c1ca45c00dc248ebb119530cfea310e4/output/AndroidManifest.xml:54:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] /Users/luziming/.android/build-cache/8da73486c1ca45c00dc248ebb119530cfea310e4/output/AndroidManifest.xml:53:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] /Users/luziming/.android/build-cache/8da73486c1ca45c00dc248ebb119530cfea310e4/output/AndroidManifest.xml:49:13-93

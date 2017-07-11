@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xhdpi/icon_setting.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-xhdpi/icon_setting.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xhdpi/icon_menu.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-xhdpi/icon_menu.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_shadow_right.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/drawable-xhdpi/ic_shadow_right.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xhdpi/icon_home.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-xhdpi/icon_home.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_shadow_left.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/drawable-xhdpi/ic_shadow_left.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xhdpi/icon_face.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-xhdpi/icon_face.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_clear.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_clear.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xhdpi/icon_heart.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-xhdpi/icon_heart.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_not_network.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/drawable-xhdpi/ic_not_network.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xhdpi/icon_car.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-xhdpi/icon_car.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_color_lens_black_24dp.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_color_lens_black_24dp.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_camera_black_24dp.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_camera_black_24dp.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xhdpi/icon_what.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-xhdpi/icon_what.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_shadow_bottom.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/drawable-xhdpi/ic_shadow_bottom.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-xhdpi/while_gray_icon.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/drawable-xhdpi/while_gray_icon.png"
+    }
+]

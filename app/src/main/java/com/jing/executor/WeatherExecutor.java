@@ -94,7 +94,7 @@ public class WeatherExecutor implements IExecutor, AMapLocalWeatherListener {
         if (aMapLocalWeatherLive != null && aMapLocalWeatherLive.getAMapException().getErrorCode() == 0) {
             updateView(aMapLocalWeatherLive);
         } else {
-            Log.e(TAG, "获取天气预报失败");
+            Log.e(TAG, "获取天气预报失败,错误码:" + aMapLocalWeatherLive.getAMapException().getErrorCode());
         }
         release();
     }
@@ -104,12 +104,17 @@ public class WeatherExecutor implements IExecutor, AMapLocalWeatherListener {
     }
 
     private void updateView(AMapLocalWeatherLive aMapLocalWeatherLive) {
-        llWeather.setVisibility(View.VISIBLE);
-        ivIcon.setImageResource(getWeatherIcon(aMapLocalWeatherLive.getWeather()));
-        tvTemp.setText(mContext.getString(R.string.weather_temp, aMapLocalWeatherLive.getTemperature()));
-        tvCity.setText(aMapLocalWeatherLive.getCity());
-        tvWind.setText(mContext.getString(R.string.weather_wind, aMapLocalWeatherLive.getWindDir(),
-                aMapLocalWeatherLive.getWindPower(), aMapLocalWeatherLive.getHumidity()));
+        try {
+            llWeather.setVisibility(View.VISIBLE);
+            ivIcon.setImageResource(getWeatherIcon(aMapLocalWeatherLive.getWeather()));
+            tvTemp.setText(mContext.getString(R.string.weather_temp, aMapLocalWeatherLive.getTemperature()));
+            tvCity.setText(aMapLocalWeatherLive.getCity());
+            tvWind.setText(mContext.getString(R.string.weather_wind, aMapLocalWeatherLive.getWindDir(),
+                    aMapLocalWeatherLive.getWindPower(), aMapLocalWeatherLive.getHumidity()));
+        } catch (Exception e) {
+            Log.e("WeatherExecutor", "updateView:" + e.toString());
+        }
+
     }
 
     private int getWeatherIcon(String weather) {

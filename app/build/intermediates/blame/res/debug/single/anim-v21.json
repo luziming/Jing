@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim-v21/fab_press_elevation.xml",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/flotatingActionButton/build/intermediates/bundles/default/res/anim-v21/fab_press_elevation.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/luziming/.android/build-cache/aebc29d77938e600fb82264723e9e385c3b99dca/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/luziming/.android/build-cache/aebc29d77938e600fb82264723e9e385c3b99dca/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    }
+]

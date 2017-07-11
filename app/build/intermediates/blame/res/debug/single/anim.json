@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/luziming/.android/build-cache/aebc29d77938e600fb82264723e9e385c3b99dca/output/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/luziming/.android/build-cache/aebc29d77938e600fb82264723e9e385c3b99dca/output/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/activity_close.xml",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/anim/activity_close.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/luziming/.android/build-cache/ab0d85488ffdd6de507d51a83fd0e987ca52e372/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/luziming/.android/build-cache/ab0d85488ffdd6de507d51a83fd0e987ca52e372/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/luziming/.android/build-cache/ab0d85488ffdd6de507d51a83fd0e987ca52e372/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/slide_top_exit.xml",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/anim/slide_top_exit.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/zoom_out_exit.xml",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/anim/zoom_out_exit.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/luziming/.android/build-cache/aebc29d77938e600fb82264723e9e385c3b99dca/output/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/zoom_in_entry.xml",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/anim/zoom_in_entry.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/fab_in.xml",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/anim/fab_in.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/luziming/.android/build-cache/ab0d85488ffdd6de507d51a83fd0e987ca52e372/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/zoom_in_exit.xml",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/anim/zoom_in_exit.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/slide_right_exit.xml",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/anim/slide_right_exit.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/luziming/.android/build-cache/ab0d85488ffdd6de507d51a83fd0e987ca52e372/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/sb__top_out.xml",
+        "source": "/Users/luziming/.android/build-cache/914bee6dd2314483071020cdc3b3ffe197f02b81/output/res/anim/sb__top_out.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/slide_bottom_entry.xml",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/anim/slide_bottom_entry.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/luziming/.android/build-cache/ab0d85488ffdd6de507d51a83fd0e987ca52e372/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/activity_open.xml",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/anim/activity_open.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/luziming/.android/build-cache/ab0d85488ffdd6de507d51a83fd0e987ca52e372/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/slide_bottom_exit.xml",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/anim/slide_bottom_exit.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/zoom_out_entry.xml",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/anim/zoom_out_entry.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
+        "source": "/Users/luziming/.android/build-cache/aebc29d77938e600fb82264723e9e385c3b99dca/output/res/anim/design_fab_in.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/hold.xml",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/anim/hold.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/slide_top_entry.xml",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/anim/slide_top_entry.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/sb__bottom_in.xml",
+        "source": "/Users/luziming/.android/build-cache/914bee6dd2314483071020cdc3b3ffe197f02b81/output/res/anim/sb__bottom_in.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/luziming/.android/build-cache/ab0d85488ffdd6de507d51a83fd0e987ca52e372/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/luziming/.android/build-cache/ab0d85488ffdd6de507d51a83fd0e987ca52e372/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/slide_right_entry.xml",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/anim/slide_right_entry.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/fab_out.xml",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/anim/fab_out.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/sb__top_in.xml",
+        "source": "/Users/luziming/.android/build-cache/914bee6dd2314483071020cdc3b3ffe197f02b81/output/res/anim/sb__top_in.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/luziming/.android/build-cache/aebc29d77938e600fb82264723e9e385c3b99dca/output/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/luziming/.android/build-cache/ab0d85488ffdd6de507d51a83fd0e987ca52e372/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/sb__bottom_out.xml",
+        "source": "/Users/luziming/.android/build-cache/914bee6dd2314483071020cdc3b3ffe197f02b81/output/res/anim/sb__bottom_out.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
+        "source": "/Users/luziming/.android/build-cache/aebc29d77938e600fb82264723e9e385c3b99dca/output/res/anim/design_fab_out.xml"
+    }
+]

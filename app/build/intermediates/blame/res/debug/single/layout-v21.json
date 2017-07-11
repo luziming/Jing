@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/luziming/.android/build-cache/ab0d85488ffdd6de507d51a83fd0e987ca52e372/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/layout-v21/layout_main.xml",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/layout-v21/layout_main.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/luziming/.android/build-cache/ab0d85488ffdd6de507d51a83fd0e987ca52e372/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/luziming/.android/build-cache/ab0d85488ffdd6de507d51a83fd0e987ca52e372/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/layout-v21/activity_about_me.xml",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/layout-v21/activity_about_me.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/luziming/.android/build-cache/ab0d85488ffdd6de507d51a83fd0e987ca52e372/output/res/layout-v21/notification_action.xml"
+    }
+]

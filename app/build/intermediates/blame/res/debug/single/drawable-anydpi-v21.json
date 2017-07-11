@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/icon_what.xml",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-anydpi-v21/icon_what.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/icon_face.xml",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-anydpi-v21/icon_face.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/Users/luziming/.android/build-cache/aebc29d77938e600fb82264723e9e385c3b99dca/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_camera_black_24dp.xml",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_camera_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_color_lens_black_24dp.xml",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_color_lens_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/icon_car.xml",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-anydpi-v21/icon_car.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/icon_heart.xml",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-anydpi-v21/icon_heart.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/icon_home.xml",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-anydpi-v21/icon_home.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/icon_menu.xml",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-anydpi-v21/icon_menu.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/Users/luziming/.android/build-cache/aebc29d77938e600fb82264723e9e385c3b99dca/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_clear.xml",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_clear.xml"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/icon_setting.xml",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/build/generated/res/pngs/debug/drawable-anydpi-v21/icon_setting.xml"
+    }
+]

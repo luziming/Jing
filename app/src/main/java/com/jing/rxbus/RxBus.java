@@ -44,7 +44,6 @@ public class RxBus {
 
     /**
      * 发送事件
-     *
      * @param o
      */
     public void post(Object o) {
@@ -116,7 +115,6 @@ public class RxBus {
         if (mSubscriptionMap == null) {
             return;
         }
-
         String key = o.getClass().getName();
         if (!mSubscriptionMap.containsKey(key)){
             return;

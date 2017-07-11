@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/mipmap-xhdpi/icon_whale_gray.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/mipmap-xhdpi/icon_whale_gray.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/mipmap-xhdpi/icon_whale_48.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/mipmap-xhdpi/icon_whale_48.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_email_white_24dp.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/mipmap-xhdpi/ic_email_white_24dp.png"
+    }
+]

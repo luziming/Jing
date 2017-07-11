@@ -1,0 +1,64 @@
+[
+    {
+        "outputFile": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en/values-en.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 49,
+                    "endOffset": 100
+                },
+                "from": {
+                    "file": "/Users/luziming/.android/build-cache/c35b0fdf0bc5b10891d0f19d4970c9768cbc7647/output/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 49,
+                        "endOffset": 100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 56,
+                    "endOffset": 157
+                },
+                "from": {
+                    "file": "/Users/luziming/.android/build-cache/c35b0fdf0bc5b10891d0f19d4970c9768cbc7647/output/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 56,
+                        "endOffset": 157
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 162,
+                    "endColumn": 46,
+                    "endOffset": 204
+                },
+                "from": {
+                    "file": "/Users/luziming/.android/build-cache/c35b0fdf0bc5b10891d0f19d4970c9768cbc7647/output/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 162,
+                        "endColumn": 46,
+                        "endOffset": 204
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/mipmap-hdpi/icon_error.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/mipmap-hdpi/icon_error.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/mipmap-hdpi/btn_pressed.9.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/mipmap-hdpi/btn_pressed.9.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/mipmap-hdpi/btn_normal.9.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/mipmap-hdpi/btn_normal.9.png"
+    },
+    {
+        "merged": "/Users/luziming/AndroidStudioProjects/Jing/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_email_white_24dp.png",
+        "source": "/Users/luziming/AndroidStudioProjects/Jing/app/src/main/res/mipmap-hdpi/ic_email_white_24dp.png"
+    }
+]

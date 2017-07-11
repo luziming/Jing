@@ -30,6 +30,7 @@
                 android:layout_height="?attr/actionBarSize"
                 android:background="@color/colorPrimary"
                 app:navigationIcon="@drawable/icon_menu"
+                app:logo="@mipmap/while_icon_blue"
                 app:layout_scrollFlags="scroll|enterAlways"
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
                 />
@@ -65,7 +66,7 @@
             fab:fab_colorNormal="@color/accent"
             fab:fab_colorPressed="@color/accent_pressed"
             fab:fab_colorRipple="@color/ripple"
-            android:src="@drawable/icon_heart"
+            android:src="@mipmap/icon_whale_48"
             app:backgroundTint="@color/yellow_400"
             app:layout_anchorGravity="bottom|right|end"/>
 
